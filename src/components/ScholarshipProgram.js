@@ -109,7 +109,7 @@ export default function ScholarshipProgram() {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             className="bg-white p-8 rounded-2xl shadow-lg border-l-4 border-[#FA541C] w-full lg:w-1/2"
           >
-            <h3 className="text-xl font-semibold text-[#FA541C] mb-4 text-center">
+            <h3 className="text-2xl font-bold text-[#FA541C] mb-4 text-center">
               {extra.title}
             </h3>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
