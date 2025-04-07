@@ -2,7 +2,7 @@
   "name": "landingpage-tks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Firdaus212/landingpagetks",
+  "homepage": "https://firdaus212.github.io/landingpagetks",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
