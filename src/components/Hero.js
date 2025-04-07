@@ -2,7 +2,7 @@ export default function Hero() {
    return (
     <section id="home" className="relative bg-[#FFF9F4] px-[120px] pt-[120px] pb-20 overflow-hidden"  
     style={{
-        backgroundImage: "url('/images/hero-bg.png')",
+        backgroundImage: "url('/landingpagetks/images/hero-bg.png')",
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'right top',
         backgroundSize: 'contain',
