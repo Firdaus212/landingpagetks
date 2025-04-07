@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Scholarships from './components/Scholarships';
+import AboutSection from './components/AboutSection';
+import SuccessStories from './components/SuccessStories';
+import BlogSection from './components/BlogSection';
+import CallToAction from './components/CallToAction';
+import Footer from './components/Footer';
+import AboutUs from './components/AboutUs';
+import ScholarshipProgram from './components/ScholarshipProgram';
+import { RegistrationProcedure } from './components/RegistrationProcedure';
+import { ApplicationTimeline } from './components/ApplicationTimeline';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-sans text-gray-800">
+      <Header />
+      <Hero />
+      <AboutUs />
+      <ScholarshipProgram />
+      <RegistrationProcedure />
+      <ApplicationTimeline />
+      <Footer />
     </div>
   );
 }
-
-export default App;
