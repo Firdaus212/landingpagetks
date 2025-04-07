@@ -17,7 +17,7 @@ export default function Header() {
       <div className="max-w-[1208px] h-[55px] mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="/landingpagetks/images/iconNavbar.png" alt="Shiplab Logo" className="h-8" />
+          <img src={`${process.env.PUBLIC_URL}/images/iconNavbar.png`} alt="Shiplab Logo" className="h-8" />
           <span className="text-xl font-bold text-gray-800">TKS</span>
         </div>
 
